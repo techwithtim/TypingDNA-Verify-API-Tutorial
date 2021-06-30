@@ -1,6 +1,12 @@
 # TypingDNA-Verify-API-Tutorial
 The code base for the tutorial on how to use the TypingDNA Verify API
 
+## Resources
+
+- [TypingDNA Website](https://www.typingdna.com/)
+
+- [TypingDNA Verify Docs](https://verify.typingdna.com/docs/)
+
 ## Installing Dependencies
 
 - Install [Node.js](https://nodejs.org/en/)
