@@ -1,0 +1,13 @@
+html
+    head
+        | <script src = "https://cdn.typingdna.com/verify/typingdna-verify.js"></script>
+        | <script>function callbackFn(payload) { window.location = window.origin + "/result" + "?otp=" + payload.otp + "&success=" + payload.success }</script>
+    body
+        h1 Welcome to TypingDNA Demo
+        button(
+            class="typingdna-verify",
+            data-typingdna-client-id=`${clientId}`,
+            data-typingdna-application-id=`${applicationId}`,
+            data-typingdna-payload=`${payload}`,
+            data-typingdna-callback-fn="callbackFn" 
+        ) Verify with TypingDNA
